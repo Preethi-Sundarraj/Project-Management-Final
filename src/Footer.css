@@ -1,20 +1,23 @@
-/* Footer.css */
-footer {
-  background-color: #f5f5f5;
-  padding: 20px;
-  text-align: center;
-  border-top: 1px solid #ddd;
+/* Footer Styles */
+.footer {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* White text color */
+  padding: 10px 20px; /* Padding */
   position: fixed;
-  width: 100%;
   bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it's above other elements */
 }
 
-footer a {
-  margin: 0 10px;
-  color: #333;
-  text-decoration: none;
+.footer-content {
+  display: flex;
+  justify-content: center;
 }
 
-footer a:hover {
-  text-decoration: underline;
+.footer-icon {
+  font-size: 24px; /* Adjust icon size as needed */
+  margin: 0 100px; /* Adjust spacing between icons */
+  cursor: pointer;
+  color: #fff; /* Icon color */
 }

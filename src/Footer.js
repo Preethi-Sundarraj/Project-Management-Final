@@ -1,15 +1,19 @@
-// Footer.js
+//Footer.js
 import React from 'react';
-import './Footer.css'; // Import the CSS file
+import { SiGnusocial } from "react-icons/si";
+import { SlSocialReddit } from "react-icons/sl";
+import { SlSocialFoursqare } from "react-icons/sl";
+import './Footer.css';
 
-const Footer = ({ companyName }) => {
+const Footer = () => {
   return (
-    <footer>
-      &copy; 2023 {companyName} | 
-      <a href="/privacy-policy"> Privacy Policy</a> | 
-      <a href="/terms-of-service"> Terms of Service</a> | 
-      <a href="/channel-partner-terms"> Channel Partner Terms</a> | 
-      Copyright &copy;2023 {companyName}. All rights reserved.
+    <footer className="footer">
+      <div className="footer-content">
+        <SiGnusocial className="footer-icon" />
+        <SlSocialReddit  className="footer-icon"/>
+        <SlSocialFoursqare className="footer-icon"/>
+        {/* Add more icons as needed */}
+      </div>
     </footer>
   );
 };

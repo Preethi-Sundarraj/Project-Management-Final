@@ -1,48 +1,38 @@
 /* App.css */
-
 body {
-  font-family: 'Arial', sans-serif;
-  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  text-align: center;
-
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .container {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.header {
-  background-color: #2c3e50;
-  color: #ecf0f1;
-  padding: 20px;
   text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.navbar {
+.main-heading {
+  font-size: 36px;
+  color: #2d2828; /* Adjust color as needed */
+  margin-bottom: 20px;
+}
+
+.assignment-button {
   background-color: #3498db;
-  color: #ecf0f1;
-  padding: 10px;
-  text-align: center;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
 }
 
-.nav-link {
-  text-decoration: none;
-  color: #ecf0f1;
-  margin: 0 15px;
-  font-weight: bold;
-}
-
-.content {
-  background-color: #ecf0f1;
-  padding: 20px;
-}
-
-.footer {
-  background-color: #2c3e50;
-  color: #ecf0f1;
-  padding: 10px;
-  text-align: center;
+.assignment-button:hover {
+  background-color: #2ecc71;
 }
