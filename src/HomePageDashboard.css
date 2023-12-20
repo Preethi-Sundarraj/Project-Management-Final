@@ -1,0 +1,22 @@
+/* HomePageDashboard.css */
+
+.home-page-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .home-page-buttons a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+  }
+  
+  .home-page-buttons a:hover {
+    color: #007bff;
+  }
+  
+  
